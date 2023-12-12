@@ -1,7 +1,7 @@
 <?php
 
 $servidor = "127.0.0.1";
-$usuario = "localhost";
+$usuario = "root";
 $senha = "";
 $bd = "escola_kider";
 
