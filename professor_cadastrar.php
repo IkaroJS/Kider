@@ -93,7 +93,7 @@
 
             <div class="col-sm-6">
                 <div class="form-floating">
-                    <input type="email" class="form-control border-0" id="gname" name="txtFormacao">
+                    <input type="text" class="form-control border-0" id="gname" name="txtFormacao">
                     <label for="gname">Formação do professor</label>
                 </div>
             </div>
@@ -114,7 +114,7 @@
 
             <div class="col-sm-6">
                 <div class="form-floating">
-                    <select class="form-control border-0" id="gname" name="txtTurno">
+                    <select type="text" class="form-control border-0" id="gname" name="txtTurno">
                         <option value="Matutino">Matutino</option>
                         <option value="Vespertino">Vespertino</option>
                         <option value="Noturno">Noturno</option>
@@ -171,8 +171,7 @@
                             </div>
                         </div>
                     </div>
-  
-            
+        
         </div>
         <!-- Footer End -->
 
