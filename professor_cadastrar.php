@@ -29,6 +29,9 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>.form-floating {border: 2px solid #255;}</style>
+
 </head>
 
 <body>
@@ -75,7 +78,7 @@
     <form action="professor_cadastrar_registrar.php" method="post">
         <div class="row g-3">
 
-            <div class="form-floating">
+            <div class="form-control">
                 <div class="col-sm-12">
                     <h2>Cadastrar professor</h2>
                 </div>
