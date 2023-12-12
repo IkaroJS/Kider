@@ -35,7 +35,7 @@
     {
 ?>
 
-    <h2 class="alert alert-danger">Professor <?php echo $nome; ?> cadastrado com sucesso!</h2>
+    <h2 class="alert alert-danger">Não foi possível realizar cadastro nesse momento</h2>
 
 <?php 
 }
