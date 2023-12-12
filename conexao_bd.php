@@ -1,9 +1,9 @@
 <?php
 
-$servidor = "127.0.0.1";
-$usuario = "root";
+$servidor = "";
+$usuario = "";
 $senha = "";
-$bd = "escola_kider";
+$bd = "";
 
  
 
