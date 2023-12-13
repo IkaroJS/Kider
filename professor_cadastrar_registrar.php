@@ -42,7 +42,7 @@
 ?>
 
 <a href="index.php">
-<button type="button" class="btn btn-primary">Voltar</button>
+    <button type="button" class="btn btn-primary">Voltar</button>
 </a>
 
 </body>
