@@ -257,36 +257,36 @@
                                     <div class="row g-3">
                                         <div class="col-sm-6">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="gname" placeholder="Nome dos pais">
+                                                <input type="text" class="form-control border-0" id="gname" placeholder="Nome dos pais" name="txtNomePais">
                                                 <label for="gname">Nome dos pais</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-floating">
-                                                <input type="email" class="form-control border-0" id="gmail" placeholder="Email de contato">
+                                                <input type="email" class="form-control border-0" id="gmail" placeholder="Email de contato" name="txtEmail">
                                                 <label for="gmail">Email de contato</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="cname" placeholder="Nome da criança">
+                                                <input type="text" class="form-control border-0" id="cname" placeholder="Nome da criança" name="txtNomeCrianca">
                                                 <label for="cname">Nome da criança</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="cage" placeholder="Idade">
+                                                <input type="text" class="form-control border-0" id="cage" placeholder="Idade" name="txtIdade">
                                                 <label for="cage">Idade</label>
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-floating">
-                                                <textarea class="form-control border-0" placeholder="Deixa uma mensagem aqui" id="message" style="height: 100px"></textarea>
+                                                <textarea class="form-control border-0" placeholder="Deixa uma mensagem aqui" id="message" style="height: 100px" name="txtMensagem"></textarea>
                                                 <label for="message">Mensagem</label>
                                             </div>
                                         </div>
                                         <div class="col-12">
-                                            <button class="btn btn-primary w-100 py-3" type="submit">Enviar</button>
+                                            <button formaction="pergunta_registrar.php"  formmethod="post" class="btn btn-primary w-100 py-3" type="submit">Enviar</button>
                                         </div>
                                     </div>
                                 </form>
