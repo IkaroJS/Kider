@@ -20,12 +20,12 @@
 <body>    
     <?php include "conexao_bd.php"; 
     
-    $sql = "SELECT * FROM professor";
+    $sql = "SELECT * FROM professor ORDER BY nome_professor";
 
     $resultado = retornarDados($sql);
     ?>
 
-    <form name="" action="" method="post">
+    
         <div class="row g-3">
             <div class="col-sm-6">
                 <div class="form-floating">
@@ -58,11 +58,19 @@
                         </tr>
 
                         <?php } ?>
-
+                            
+                            
                     </table>
                 </div>
             </div>
         </div>
-    </form>
+    </div>
+    <div class="col-12">
+        <a href="index.php">
+            <button class="btn btn-primary w-100 py-3" type="button">
+                Cadastrar
+            </button>
+        </a>
+    </div>
 </body>
 </html>
