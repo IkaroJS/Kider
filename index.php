@@ -59,7 +59,7 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Mais</a>
                         <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
                             <a href="" class="dropdown-item">Nosso programa</a>
-                            <a href="" class="dropdown-item">Nossos professores</a>
+                            <a href="professores.php" class="dropdown-item">Nossos professores</a>
                             <a href="professor_cadastrar.php" class="dropdown-item">Seja um professor</a>
                             <a href="" class="dropdown-item">Depoimentos</a>
                             
