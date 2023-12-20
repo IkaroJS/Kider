@@ -29,6 +29,9 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>.form-floating {border: 2px solid #255;}</style>
+
 </head>
 
 <body>
@@ -44,7 +47,7 @@
 
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
-            <a href="index.html" class="navbar-brand">
+            <a href="index.php" class="navbar-brand">
                 <h1 class="m-0 text-primary"><i class="fa fa-book-reader me-3"></i>Kider</h1>
             </a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -75,7 +78,7 @@
     <form action="professor_cadastrar_registrar.php" method="post">
         <div class="row g-3">
 
-            <div class="form-floating">
+            <div class="form-control">
                 <div class="col-sm-12">
                     <h2>Cadastrar professor</h2>
                 </div>
@@ -168,7 +171,16 @@
                             </div>
                         </div>
                     </div>
-        
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-white mb-4">Assine nossa newsletter</h3>
+                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="   Seu email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Footer End -->
 
