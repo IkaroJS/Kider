@@ -5,8 +5,6 @@ $usuario = "";
 $senha = "";
 $bd = "";
 
- 
-
 // Criando nova conexão 
 global $conn;
 $conn = mysqli_connect($servidor, $usuario, $senha, $bd);
